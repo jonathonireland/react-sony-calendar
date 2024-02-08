@@ -1,0 +1,16 @@
+section{
+    margin:0 auto;
+    width: 1400px;
+}
+.week{ 
+    margin:0 auto;
+    width: 1400px;
+    display: grid;
+    grid-auto-rows: auto; /* Set rows to auto to accommodate content */
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for each day of the week */ }
+
+.day-head {
+    border: 1px solid #fff; /* Add borders to each day */
+    padding: 11px; /* Add padding to create space inside each day */
+}
+

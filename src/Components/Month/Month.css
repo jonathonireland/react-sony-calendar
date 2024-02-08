@@ -1,0 +1,24 @@
+
+.day {
+    border: 1px solid #ccc; /* Add borders to each day */
+    padding: 10px; /* Add padding to create space inside each day */
+}
+
+.ed{
+    background:#fff;
+}
+
+.event {
+    background-color: #f0f0f0; /* Customize the background color for events */
+    border-radius: 5px; /* Add rounded corners for event containers */
+    padding: 5px; /* Add padding to create space inside event containers */
+}
+
+.week{ 
+    margin:0 auto;
+    width: 1400px;
+    display: grid;
+    grid-auto-rows: auto; /* Set rows to auto to accommodate content */
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for each day of the week */ }
+
+
