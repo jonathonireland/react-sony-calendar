@@ -3,7 +3,11 @@
 }
 
 #app{
-  display:grid;
   place-content: cneter;
-  height: 100vh;
+}
+
+.daysHeaderRow{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
